@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Streaming</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Meu Streaming</h1>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-streaming" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#recomendados" class="nav-link">Séries</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link ">Fimes</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link ">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-streaming">
+            <!--AREA DO CARROSSEL-->
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/07/loki-season-2-confirmed.jpg"
+                            alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://app.arkfilmes.com/img/cartaz/ct-VINGANCA-A-SANGUE-FRIO-2019.webp" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://iguatemi.com.br/esplanada/sites/esplanada/files/styles/crop_blog_1920x720/public/2023-06/transformers.jpg?h=0838f812&itok=x59kPglW"
+                            alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <!--AREA DO CARROSSEL-->
+
+            <!--AREA SOBRE O STREAMING-->
+            <div class="pt-5 pb-5" id="bg-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5" id="alt-div-row">
+                            <img src="https://meialua.net/wp-content/uploads/2023/03/Anuncio_JW4_1920x1080_hoje.png"
+                                alt="" class="d-block w-100 h-100 rounded larg" id="alt-img">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="mt-3">John Wick 4: <span>Baba Yaga</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi excepturi cupiditate
+                                earum animi amet dolorum nihil pariatur magni, voluptatem ad consequuntur asperiores
+                                quia et. Ea neque sed voluptatem ab minima?</p>
+
+                            <h3>Sobre <span>o filme</span></h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat perspiciatis laborum,
+                                itaque ea rem sequi enim labore aliquam voluptatum totam porro dolore nemo reiciendis
+                                deleniti blanditiis, aperiam doloribus ad eveniet?</p>
+                            <ul>
+                                <li>Item1</li>
+                                <li>Item2</li>
+                                <li>Item3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--AREA SOBRE O STREAMING-->
+        </section>
+
+        <!--AREA RECOMENDADOS-->
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5">Nós <span> recomendamos </span> </h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 alt-img">
+
+                        <h3 class="fs-5">
+                            <img src="https://www.revistadestaque.com.br/wp-content/uploads/2023/07/imagem_2023-07-06_220716445.png"
+                                class="d-block w-100 pb-2" alt="">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Ação
+                        </h3>
+                        <p class="fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+                            nihil libero pariatur ullam aspernatur dolor perferendis at.</p>
+
+                        <a href="" class="btn btn-outline-light bg-danger mb-5">Assita agora</a>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 alt-img">
+                        <h3 class="fs-5">
+                            <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTZKRxWC-kYAQKlk6zzBpLkKZC5vN8jhf-hjfBv6gN-3uzdRtSi2qI8HBLVO13tp5Gi2RlIyISlVTT7aso9AZP5swCUpAo0nAx4b6Z4D38jqNI-gaCbYCTCE9Ouhv6fdlv9Miw.jpg?r=fcf"
+                                class="d-block w-100 pb-2" alt="">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Suspense
+                        </h3>
+                        <p class="fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi nihil
+                            libero pariatur ullam aspernatur dolor perferendis at.</p>
+
+                        <a href="" class="btn btn-outline-light bg-danger mb-5">Assita agora</a>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 alt-img">
+                        <h3 class="fs-5">
+                            <img src="https://vitaminanerd.com.br/wp-content/uploads/2019/12/Minha-mae-e-uma-peca-capa.png"
+                                class="d-block w-100 pb-2" alt="">
+                            <i class="bi bi-people-fill"></i>
+                            Comédia
+                        </h3>
+                        <p class="fs- fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+                            nihil libero pariatur ullam aspernatur dolor perferendis at.</p>
+
+                        <a href="" class="btn btn-outline-light bg-danger mb-5">Assita agora</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--AREA RECOMENDADOS-->
+
+        <!--AREA CATEGORIAS-->
+
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row ">
+                    <h2 class="text-center mb-5">Escolha seu <span>gênero favorito</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" class="fw-bold text-start nav-link active" data-bs-toggle="tab"
+                                data-bs-target="#emcartaz">Em cartaz</button>
+                            <button type="button" class="fw-bold text-start nav-link" data-bs-toggle="tab"
+                                data-bs-target="#novidades">Novidades</button>
+                            <button type="button" class="fw-bold text-start nav-link" data-bs-toggle="tab"
+                                data-bs-target="#top10">Top 10 no Brasil</button>
+                            <button type="button" class="fw-bold text-start nav-link" data-bs-toggle="tab"
+                                data-bs-target="#critica">Aclamados pela crítica</button>
+                            <button type="button" class="fw-bold text-start nav-link" data-bs-toggle="tab"
+                                data-bs-target="#oscar">Indicados ao óscar</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="emcartaz">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://br.web.img3.acsta.net/pictures/22/07/27/15/18/5452852.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Pinóquio</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div>
+                                            <div>
+                                                <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://cdn.ome.lt/VQmn5SVX50FfKQXamUKtTYVeMdE=/570x0/smart/uploads/conteudo/fotos/poster_Zs5dGrG.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Last Looks</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://media.fstatic.com/NquGlkzIpPG3BfG0B4qU3LGVldg=/322x478/smart/filters:format(webp)/media/movies/covers/2021/02/Jim_Knopf_und_die_Wilde_13.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Jim Knopf e os 13 Piratas</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://www.sonypictures.com.br/sites/brazil/files/2022-04/UNCHARTED%20KEY%20ART.JPG"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Uncharted: Fora do Mapa</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="novidades">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://lineadirectaportal.com/wp-content/uploads/2023/10/Pacto-de-silencio-e1697131821535.webp"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Pacto de Silêncio</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABT6UrSNkVQOPybNm_BkFKjvDauOHjykjJ6xbfG3xc0RcL0b5W_P30dGCkLKBWrouRh-C5oB5rYOkAwxNsWfDRPy03KMzqKskxkkHncQh30GSIFzeVRk22Z1nK8_qYJOxCQpkHx_pObBb_hjjpJ-_Qwm4klDhflspf1ZChZc6XNxU-wnorFMr8S4lc1xsROeS9DvBXRwYrEevH_bTb2GKVPgfGuFhnjMU3yMIIeB-L3O_YidNRKmJWyuygZW5-eG-nIYPRWubsJNipaSenZ30Ow.jpg?r=fcf"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">O Lado Bom de Ser Traída</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUhaabCTnVk02g3tqGux1uGF8jsiJh79EgvW0E4qdB40Q7sHC6ViQDGahyAC_kDxCJHxQ8mwJc_fVD1haAjzUiWoZntwhgswvrbiw6tf6s9BOBzI7Bt7lnxTYiBfkFlHDzUjaloJZP55JtPoMfPlMKzVaBeiqaJk8P2YEyyVGG4rVvEQX89-lcPYD3Mf_39PGoTl6XX0t8fAc20tD8f8PxE99i1BBtc-rKYUf7UliqgmWxa-GeSNBAcCeu7NdTL0v2dEThqZpGC5BRjkTIWE8E_ygjeoa6UktXCGRyMSvQRNPf_B3w.jpg?r=698"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Máfia da Dor</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://br.web.img2.acsta.net/c_310_420/pictures/23/10/02/13/10/4478170.png"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Imã Morte</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="top10">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://cinepop.com.br/wp-content/uploads/2017/07/cultodechucky_5.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">O Culto de Chucky</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://cinepop.com.br/wp-content/uploads/2023/08/97-minutos-poster.jpg.webp"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">97 Minutos</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="data:image/jpeg;base64,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"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Assassinos da Lua das Flores</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://br.web.img2.acsta.net/c_310_420/pictures/23/09/22/20/57/4971636.png"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">RBons Companheiros</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="critica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://br.web.img3.acsta.net/c_310_420/pictures/22/09/16/23/01/2823578.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">O Milagre</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://m.media-amazon.com/images/M/MV5BNjZlYWFjOWUtOTAzMi00Yzg4LTg5M2YtYTFlN2U1NjY0MGVhXkEyXkFqcGdeQXVyMTA3MTI2ODc5._V1_.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Stutz</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://vertentesdocinema.com/wp-content/uploads/2023/01/l0s6z3gtrmybs7zbh8mkmp6qz6v.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">As Nadadoras</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://br.web.img3.acsta.net/pictures/22/11/21/16/56/5938289.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">O Amante de Lady Chatterley</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="oscar">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://i.ytimg.com/vi/JkoSAwJUwAo/maxresdefault.jpg" alt="">
+                                        <h6 class="fw-bold mt-2">Nada de Novo no Front</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1OrzrTlvB2zNNxqV8XLMuOXaMhIVIRHYAxNtpO5kja6PTn4l22pG2-_udIwPnWrwQgIF10VNzBoMDLk6z2rb_iNs0UmPZOzsm4uLMfryMVlLOReATnIKggfWt5IEs7WflNtCZTFOQiLo-_mcgt_75P1MRYrEjcqxnYX0zXMVKeyrLYYCfZoKk6znbSw/s600/avtr01_07a.jpg"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Avatar: O Caminho da Água</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/292/1460292-h-239eab8a3f21"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Os Banshees de Inisherin</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100"
+                                            src="https://vertentesdocinema.com/wp-content/uploads/2022/05/tudo-em-todo-lugar-ao-mesmo-tempo-scaled-1.webp"
+                                            alt="">
+                                        <h6 class="fw-bold mt-2">Tudo em Todo Lugar ao Mesmo Tempo</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <div>
+                                            <a href="" class="mb-3 btn btn-outline-light bg-danger">Play</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--AREA CATEGORIAS-->
+
+        <!--AREA CONTATOS-->
+
+        <section class="pt-5 pb-5" id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Fale <span>conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mt-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="nome" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mt-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mt-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mt-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4" id="redes-sociais">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook fs-5"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram fs-5 ms-2 me-2"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp fs-5"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4" id="endereco">
+                            <h3 class="fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua São José, nº 1554, Centro - Oeiras - PI
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--AREA CONTATOS-->
+
+        <!--AREA RODAPE-->
+
+        <div class="row" id="rodape">
+            <div class="col-12 text-center text-light">
+                <p class="mt-3">&copy CURSO EBAC - Todos os direitos reservados 2023</p>
+            </div>
+        </div>
+
+        <!--AREA RODAPE-->
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+
+</html>
